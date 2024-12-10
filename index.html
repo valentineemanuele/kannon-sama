@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens de Kannon-sama</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8f5; /* Fundo suave */
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.kannon-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #ff8c69; /* Coral */
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #ff6b5c; /* Tom coral vibrante */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #8a5a55; /* Coral mais escuro */
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#message p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #6e4f4b;
+}
+
+button {
+    background-color: #ff6b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e65c53;
+    transform: scale(1.05);
+}
+
+#inspiration {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #4a4a4a;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #8a5a55;
+}
+
+footer p {
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="kannon-sama.jpg.webp" alt="Imagem de Kannon-sama" class="kannon-image">
+        <h1>Bem-vindo(a) às Palavras de Kannon-sama</h1>
+        <p>Compaixão e sabedoria para iluminar seu dia.</p>
+    </header>
+    <main>
+        <section id="message">
+            <p>Clique abaixo para receber uma mensagem de inspiração.</p>
+            <button id="newMessageButton">Nova Mensagem</button>
+            <div id="inspiration" class="hidden">
+                <p class="quote">"A compaixão é a força que move o universo."</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Inspirado por Kannon-sama</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

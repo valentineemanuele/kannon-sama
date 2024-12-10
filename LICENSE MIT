@@ -1,23 +1,20 @@
+MIT License
 
-### Explicando as seções:
+Copyright (c) 2024 Valentine
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following condition:
 
-1. **Título e descrição do projeto**:
-   - Dê um título simples e uma breve descrição sobre o que é o projeto e seu propósito. No caso, é sobre Kannon-sama e transmitir sabedoria e paz.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. **Funcionalidades**:
-   - Liste o que o projeto faz, para que as pessoas que acessam o repositório saibam rapidamente o que ele oferece.
-
-3. **Tecnologias Utilizadas**:
-   - Especifique as tecnologias que você usou (HTML, CSS, JavaScript).
-
-4. **Como rodar o projeto localmente**:
-   - Explique como rodar o projeto na máquina local, caso alguém queira ver o projeto funcionando ou contribuir.
-
-5. **Contribuições**:
-   - Abra espaço para outros contribuírem para o projeto, criando um fork e enviando melhorias.
-
-6. **Licença**:
-   - Inclua a licença, se você for usar uma (o MIT é uma escolha comum para projetos open-source). Se preferir, pode pular esta parte ou usar outra licença.
-
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
